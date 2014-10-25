@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+	        
+    <TextView
+        android:id="@+id/tvCityDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="City Details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:lines="2" />
+	    
+	<TableLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:shrinkColumns="0" >
+	
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+	        android:gravity="center" >
+	
+		    <TextView
+		        android:id="@+id/tvIDTitle"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:lines="1"
+		        android:text="ID:  " />
+		
+		    <TextView
+		        android:id="@+id/tvID"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="800" />
+
+		</TableRow>
+	
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:gravity="center" >
+		
+		    <TextView
+		        android:id="@+id/tvCountryID"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:lines="1"
+		        android:text="Country:     " />
+		
+		    <TextView
+		        android:id="@+id/tvCountry"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="800" />
+	
+		</TableRow>
+	
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:gravity="center" >
+		
+		    <TextView
+		        android:id="@+id/tvRegionID"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:lines="1"
+		        android:text="Region:     " />
+		
+		    <TextView
+		        android:id="@+id/tvRegion"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="800" />
+	
+		</TableRow>
+		
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:gravity="center" >
+		
+		    <TextView
+		        android:id="@+id/tvCityID"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:lines="1"
+		        android:text="City:     " />
+		
+		    <TextView
+		        android:id="@+id/tvCity"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="800" />
+	
+		</TableRow>
+		
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:gravity="center" >
+		
+		    <TextView
+		        android:id="@+id/tvLatitudeID"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:lines="1"
+		        android:text="Latitude:     " />
+		
+		    <TextView
+		        android:id="@+id/tvLatitude"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="800" />
+	
+		</TableRow>
+		
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:gravity="center" >
+		
+		    <TextView
+		        android:id="@+id/tvLongitudeID"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:lines="1"
+		        android:text="Longitude:     " />
+		
+		    <TextView
+		        android:id="@+id/tvLongitude"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="800" />
+	
+		</TableRow>
+		
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:gravity="center" >
+		
+		    <TextView
+		        android:id="@+id/tvCommentID"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:lines="1"
+		        android:text="Comment:     " />
+		
+		    <TextView
+		        android:id="@+id/tvComment"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="800" />
+	
+		</TableRow>
+		
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent">
+		      
+	        <Button 
+	            android:text="Sample" 
+	            android:id="@+id/bLocate" 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true">
+	        </Button>
+
+        </RelativeLayout>
+        
+	</TableLayout>
+	
+</LinearLayout>
